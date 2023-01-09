@@ -1,0 +1,8 @@
+﻿using Volo.Abp;
+
+namespace AppoinmentSchelulingProject.EntityFrameworkCore;
+
+public abstract class AppoinmentSchelulingProjectEntityFrameworkCoreTestBase : AppoinmentSchelulingProjectTestBase<AppoinmentSchelulingProjectEntityFrameworkCoreTestModule>
+{
+
+}

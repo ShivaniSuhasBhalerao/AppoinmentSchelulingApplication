@@ -1,0 +1,42 @@
+{
+  "Id": "696f0acd-92ba-4988-8315-be32efbcf136",
+  "Name": "Calender",
+  "OriginalName": "Calender",
+  "NamePlural": "Calenders",
+  "DatabaseTableName": "Calenders",
+  "Namespace": "Calenders",
+  "BaseClass": "FullAuditedAggregateRoot",
+  "PrimaryKeyType": "Guid",
+  "IsMultiTenant": false,
+  "CheckConcurrency": true,
+  "ShouldCreateUserInterface": true,
+  "ShouldCreateBackend": true,
+  "ShouldAddMigration": true,
+  "ShouldUpdateDatabase": true,
+  "CreateTests": true,
+  "Properties": [
+    {
+      "Id": "6a0aef28-b4ea-4109-a837-ba67c9a579e4",
+      "Name": "Date",
+      "Type": "DateTime",
+      "EnumType": "",
+      "EnumNamespace": "",
+      "EnumAngularImport": "shared/enums",
+      "EnumFilePath": null,
+      "IsNullable": false,
+      "IsRequired": false,
+      "MinLength": null,
+      "MaxLength": null,
+      "SortOrder": 0,
+      "SortType": 0,
+      "Regex": "",
+      "EmailValidation": false,
+      "EnumValues": null,
+      "IsSelected": true,
+      "OrdinalIndex": 0
+    }
+  ],
+  "NavigationProperties": [],
+  "NavigationConnections": [],
+  "PhysicalFileName": "Calender.json"
+}

@@ -1,0 +1,6 @@
+﻿namespace AppoinmentSchelulingProject;
+
+public abstract class AppoinmentSchelulingProjectDomainTestBase : AppoinmentSchelulingProjectTestBase<AppoinmentSchelulingProjectDomainTestModule>
+{
+
+}

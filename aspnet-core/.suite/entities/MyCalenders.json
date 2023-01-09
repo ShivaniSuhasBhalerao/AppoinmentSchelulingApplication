@@ -1,0 +1,42 @@
+{
+  "Id": "3345d086-b5e2-4074-87bd-48058e54a559",
+  "Name": "MyCalenders",
+  "OriginalName": "MyCalenders",
+  "NamePlural": "MyCalenderss",
+  "DatabaseTableName": "MyCalenderss",
+  "Namespace": "MyCalenderss",
+  "BaseClass": "FullAuditedAggregateRoot",
+  "PrimaryKeyType": "Guid",
+  "IsMultiTenant": false,
+  "CheckConcurrency": true,
+  "ShouldCreateUserInterface": true,
+  "ShouldCreateBackend": true,
+  "ShouldAddMigration": true,
+  "ShouldUpdateDatabase": true,
+  "CreateTests": true,
+  "Properties": [
+    {
+      "Id": "627a5d27-8fdb-4496-b410-a21903615249",
+      "Name": "Date",
+      "Type": "DateTime",
+      "EnumType": "",
+      "EnumNamespace": "",
+      "EnumAngularImport": "shared/enums",
+      "EnumFilePath": null,
+      "IsNullable": false,
+      "IsRequired": false,
+      "MinLength": null,
+      "MaxLength": null,
+      "SortOrder": 0,
+      "SortType": 0,
+      "Regex": "",
+      "EmailValidation": false,
+      "EnumValues": null,
+      "IsSelected": true,
+      "OrdinalIndex": 0
+    }
+  ],
+  "NavigationProperties": [],
+  "NavigationConnections": [],
+  "PhysicalFileName": "MyCalenders.json"
+}

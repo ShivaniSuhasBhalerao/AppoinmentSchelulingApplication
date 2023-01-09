@@ -1,0 +1,42 @@
+{
+  "Id": "dd84fa86-d8ad-45fd-96c8-31f0fd6e6c95",
+  "Name": "MyCalender",
+  "OriginalName": "MyCalender",
+  "NamePlural": "MyCalenders",
+  "DatabaseTableName": "MyCalenders",
+  "Namespace": "MyCalenders",
+  "BaseClass": "FullAuditedAggregateRoot",
+  "PrimaryKeyType": "Guid",
+  "IsMultiTenant": false,
+  "CheckConcurrency": true,
+  "ShouldCreateUserInterface": true,
+  "ShouldCreateBackend": true,
+  "ShouldAddMigration": true,
+  "ShouldUpdateDatabase": true,
+  "CreateTests": true,
+  "Properties": [
+    {
+      "Id": "b9456a8c-63dc-4bd4-9770-f0b774e63d80",
+      "Name": "AppointmentDate",
+      "Type": "DateTime",
+      "EnumType": "",
+      "EnumNamespace": "",
+      "EnumAngularImport": "shared/enums",
+      "EnumFilePath": null,
+      "IsNullable": false,
+      "IsRequired": false,
+      "MinLength": null,
+      "MaxLength": null,
+      "SortOrder": 0,
+      "SortType": 0,
+      "Regex": "",
+      "EmailValidation": false,
+      "EnumValues": null,
+      "IsSelected": true,
+      "OrdinalIndex": 0
+    }
+  ],
+  "NavigationProperties": [],
+  "NavigationConnections": [],
+  "PhysicalFileName": "MyCalender.json"
+}

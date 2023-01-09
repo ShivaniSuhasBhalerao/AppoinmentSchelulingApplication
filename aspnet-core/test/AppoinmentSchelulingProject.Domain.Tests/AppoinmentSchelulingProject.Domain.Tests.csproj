@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>AppoinmentSchelulingProject</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppoinmentSchelulingProject.EntityFrameworkCore.Tests\AppoinmentSchelulingProject.EntityFrameworkCore.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="Twilio" Version="5.79.0" />
+    <PackageReference Include="Twilio.AspNet.Core" Version="5.79.0" />
+  </ItemGroup>
+
+</Project>
